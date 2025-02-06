@@ -14,7 +14,7 @@ const About: React.FC = () => {
                 About Me
             </motion.h2>
             <p className="text-lg text-gray-700 dark:text-gray-400 max-w-2xl text-center">
-                I'm a passionate software engineer with experience in cloud technologies, frontend development,
+                I&apos;m a passionate software engineer with experience in cloud technologies, frontend development,
                 and backend systems. I specialize in building scalable applications using modern frameworks
                 like Next.js, React, and Django.
             </p>

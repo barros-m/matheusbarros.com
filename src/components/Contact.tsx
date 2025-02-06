@@ -28,7 +28,7 @@ const Contact: React.FC = () => {
       } else {
         throw new Error(result.error);
       }
-    } catch (error) {
+    } catch {
       setStatus("Failed to send message. Please try again later.");
     }
   };
