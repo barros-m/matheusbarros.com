@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
       >
-        Hi, I&apos;m Mattheus Barros
+        Hi, I&apos;m Matheus Barros
       </motion.h1>
       <p className="text-xl text-gray-700 dark:text-gray-400 mb-6">Software Engineer | Cloud Enthusiast</p>
       <div className="flex space-x-4 mb-6">
