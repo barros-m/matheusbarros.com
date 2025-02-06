@@ -26,13 +26,13 @@ const Hero: React.FC = () => {
       </div>
       {/* Social Media Links */}
       <div className="flex space-x-6 mt-6">
-        <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition">
+        <a href="https://github.com/barros-m" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition">
           <FaGithub size={30} />
         </a>
-        <a href="https://linkedin.com/in/yourlinkedin" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition">
+        <a href="https://www.linkedin.com/in/mattheusbarroos/" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition">
           <FaLinkedin size={30} />
         </a>
-        <a href="https://twitter.com/yourtwitter" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition">
+        <a href="https://www.instagram.com/matheusbarros.dev/" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition">
           <FaInstagram size={30} />
         </a>
       </div>
