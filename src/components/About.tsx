@@ -4,20 +4,27 @@ import { motion } from "framer-motion";
 
 const About: React.FC = () => {
     return (
-        <div id="about" className="min-h-screen flex flex-col items-center justify-center px-6">
+        <div id="about" className="min-h-screen flex flex-col items-center justify-center px-6 text-center">
             <motion.h2
-                className="text-4xl font-bold mb-4"
+                className="text-5xl font-extrabold mb-6 text-gray-900 dark:text-white"
                 initial={{ opacity: 0, y: -50 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 2 }}
+                transition={{ duration: 0.8 }}
             >
                 About Me
             </motion.h2>
-            <p className="text-lg text-gray-700 dark:text-gray-400 max-w-2xl text-center">
-                I&apos;m a passionate software engineer with experience in cloud technologies, frontend development,
-                and backend systems. I specialize in building scalable applications using modern frameworks
-                like Next.js, React, and Django.
-            </p>
+            <motion.p
+                className="text-lg text-gray-700 dark:text-gray-300 max-w-3xl leading-relaxed"
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 1 }}
+            >
+                I'm a software engineer passionate about building modern solutions. 
+                I specialize in cloud solutions, data analysis, and visualization, 
+                using tools like Next.js, React, Angular, .NET, Django, and cloud technologies. 
+                Whether it's designing smooth user experiences, optimizing performance, 
+                or extracting insights from data, I love turning ideas into reality.
+            </motion.p>
         </div>
     );
 };
