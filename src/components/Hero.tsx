@@ -2,7 +2,6 @@
 import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import SocialMedia from "./SocialMedia";
 
 const Hero: React.FC = () => {
   return (
@@ -16,16 +15,14 @@ const Hero: React.FC = () => {
         Hi, I&apos;m Matheus Barros
       </motion.h1>
       <p className="text-xl text-gray-700 dark:text-gray-400 mb-6">Software Engineer | Cloud Enthusiast</p>
-      <div className="flex space-x-4 mb-6">
-        <Link href="/projects" className="px-6 py-3 bg-gray-300 dark:bg-gray-800 rounded-xl text-gray-900 dark:text-white font-semibold hover:bg-gray-400 dark:hover:bg-gray-700 transition">
-          My Work
-        </Link>
-        <Link href="/contact" className="px-6 py-3 bg-gray-900 dark:bg-white text-white dark:text-black rounded-xl font-semibold hover:bg-gray-700 dark:hover:bg-gray-200 transition">
+      <div className="flex flex-col justify-center gap-4 md:flex-row md:justify-start">
+        <a href="#contact" className="inline-flex items-center border border-gray-300 dark:border-gray-600 justify-center select-none rounded-full disabled:cursor-not-allowed disabled:opacity-70 transition ease-in-out duration-200 bg-white text-black hover:bg-gray-200 dark:bg-gray-900 dark:text-white dark:hover:bg-gray-800 text-base h-12 px-6 font-semibold">
           Contact Me
-        </Link>
+        </a>
+        <a href="/barros_resume.pdf" download className="inline-flex items-center border border-gray-300 dark:border-gray-600 justify-center select-none rounded-full disabled:cursor-not-allowed disabled:opacity-70 transition ease-in-out duration-200 bg-gray-100 text-gray-900 hover:bg-gray-200 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 text-base h-12 px-6 font-semibold">
+          Download My Resume
+        </a>
       </div>
-      {/* Social Media Links */}
-      <SocialMedia />
     </div>
   );
 };
