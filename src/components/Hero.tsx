@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import { motion } from "framer-motion";
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import SocialMedia from "./SocialMedia";
 
 const Hero: React.FC = () => {
   return (
@@ -25,17 +25,7 @@ const Hero: React.FC = () => {
         </Link>
       </div>
       {/* Social Media Links */}
-      <div className="flex space-x-6 mt-6">
-        <a href="https://github.com/barros-m" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition">
-          <FaGithub size={30} />
-        </a>
-        <a href="https://www.linkedin.com/in/mattheusbarroos/" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition">
-          <FaLinkedin size={30} />
-        </a>
-        <a href="https://www.instagram.com/matheusbarros.dev/" target="_blank" rel="noopener noreferrer" className="text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition">
-          <FaInstagram size={30} />
-        </a>
-      </div>
+      <SocialMedia />
     </div>
   );
 };
