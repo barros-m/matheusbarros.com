@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Mattheus Barros - Portfolio",
+  title: "Matheus Barros - Portfolio",
   description: "Software Engineer | Cloud Enthusiast",
 };
 
