@@ -43,7 +43,7 @@ const Hero: React.FC = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.3, duration: 0.5 }}
       >
-        I build scalable web apps and automate cloud workflows — blending full-stack code with clean design.
+        I design and deliver scalable web platforms and cloud-based solutions, combining strong architecture with efficient full-stack development.
       </motion.p>
 
       <div className="flex flex-col items-center gap-4 sm:flex-row sm:justify-center w-full max-w-md">
